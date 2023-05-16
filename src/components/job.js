@@ -8,7 +8,7 @@ const Job = (props) => {
       <th scope="row">{props.offer.id}</th>
       <td>{props.offer.name}</td>
       <td>{props.offer.company}</td>
-      <td></td>{props.offer.salary} <FormattedMessage id={MillionPlural(props.offer.salary)}/>
+      <td>{props.offer.salary} <FormattedMessage id={MillionPlural(props.offer.salary)}/></td>
       <td>{props.offer.city}</td>
       <td>
         <FormattedDate
