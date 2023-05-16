@@ -43,7 +43,6 @@ const JobsList = () => {
           </tr>
         </thead>
         <tbody>
-          {console.log("Offers", offers)}
           {offers.map((e, i) => (
             <Job key={i} offer={e} />
           ))}
